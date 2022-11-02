@@ -1,0 +1,245 @@
+:root {
+  --primery-text-color: #757575;
+  --primery-black-color: #212121;
+  --header-logo-black-color: #000000;
+  --primery-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --primery-background-color: #f5f5f5;
+  --background-color: #2f303a;
+  --background-white-color: #ffffff;
+  --background-team-button-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--background-white-color);
+  color: var(--primery-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav .link.current {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* header */
+.header .studio {
+  color: var(--header-logo-black-color);
+}
+
+.header .contacts-type {
+  color: var(--primery-text-color);
+}
+
+.logo .link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--accent-color);
+}
+
+.nav .link,
+.header .contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav .link {
+  color: var(--primery-black-color);
+}
+
+.header .link:hover,
+.header .link:focus,
+.header .link > .studio:hover,
+.header .link > .studio:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primery-white-color);
+  background-color: var(--background-color);
+}
+
+.hero .button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.9;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-white-color);
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  color: var(--accent-color);
+}
+
+/* section */
+.section .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--primery-black-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features .subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primery-black-color);
+}
+
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team.section {
+  background-color: var(--background-team-button-color);
+}
+
+.team .person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: var(--primery-black-color);
+}
+
+.team .profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.feature .img-bg,
+.team .card-bg {
+  background: var(--background-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* footer */
+.font-style {
+  font-style: normal;
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer .logo {
+  color: var(--accent-color);
+}
+
+.footer .studio {
+  color: var(--primery-white-color);
+}
+
+.footer .adress {
+  color: var(--primery-white-color);
+}
+
+.footer .contacts-type {
+  color: var(--footer-contacts-color);
+}
+
+.footer .studio:hover,
+.footer .studio:focus,
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+.portfolio .button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+
+  color: var(--primery-black-color);
+  background: var(--background-team-button-color);
+  border-radius: 4px;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-black-color);
+}
+
+.portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.portfolio .img-border {
+  background: var(--background-white-color);
+  border: 1px solid #eeeeee;
+}
