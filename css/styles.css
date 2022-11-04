@@ -122,7 +122,7 @@ ul {
 }
 
 /* feature */
-.feature-title {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -130,7 +130,8 @@ ul {
   color: var(--primery-black-color);
 }
 
-.feature-subtitle {
+.features-subtitle {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 
@@ -138,18 +139,10 @@ ul {
 }
 
 .features-text {
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 /* activity */
-.activity-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-
-  color: var(--primery-black-color);
-}
-
 .activity-item {
   mix-blend-mode: normal;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -230,6 +223,13 @@ ul {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.adress-mail:hover,
+.adress-mail:focus,
+.adress-phone:hover,
+.adress-phone:focus {
+  color: var(--accent-color);
+}
+
 /* portfolio */
 .portfolio-title {
   font-size: 18px;
@@ -270,10 +270,10 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   
-  color: #212121;
+  color: var(--primery-black-color);
 }
 
-.projects-text {
+.project-text {
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
 }
